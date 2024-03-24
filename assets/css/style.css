@@ -209,7 +209,7 @@ p{
 }
 .banner-section-outer .banner-section .banner-section-content h3 {
     color: var(--e-global-color-white);
-    margin-bottom: 18px;
+    margin-bottom: 5px;
     letter-spacing: 12.2px;
 }
 .banner-section-outer .banner-section .banner-section-content h1{
@@ -234,7 +234,7 @@ p{
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
-    padding: 20px 80px 20px 32px;
+    padding: 20px 35px 20px 32px;
     text-align: center;
     color: var(--e-global-color-white);
     border: 2px solid var(--e-global-color-very-dark-grayish);
@@ -274,6 +274,31 @@ p{
     position: absolute;
     right: 56px;
     bottom: 172px;
+}
+
+.banner_video .video_img img{
+    border-radius: 50%;
+    margin: 15px;
+    padding: 8px;
+    border: 2px solid white;
+    animation-name: bor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bor{
+    0%{
+        padding: 8px;
+        margin: 15px;
+        border: 2px solid white;
+    }
+    100%{
+        padding: 23px;
+        margin: 0px;
+        border: none;
+        border: 2px solid rgba(255,255,255,0);
+    }
+    
 }
 
 #banner_slider .carousel-indicators {
@@ -623,7 +648,7 @@ p{
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
-    padding: 21px 80px 21px 34px;
+    padding: 21px 35px 21px 34px;
     text-align: center;
     color: var(--e-global-color-white);
     background-image: linear-gradient(-82deg, var(--e-global-color-accent) 0%, var(--e-global-color-soft-red) 100%);
@@ -952,7 +977,7 @@ p{
     border-radius: 50%;
 }
 .team_member_box_upper_portion img:hover{
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     opacity: 0.8;
 }
 .team_member_box_lower_portion {
@@ -1011,7 +1036,7 @@ p{
 
 .team_member_section .owl-carousel .owl-nav{
     display: block !important;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 .team_member_section .owl-carousel .owl-nav button.owl-prev {
     width: 60px;
@@ -1215,7 +1240,7 @@ textarea {
     margin: 0 auto;
     left: 0;
     right: 0;
-    padding: 20px 15px;
+    padding: 12px 15px;
 }
 .our_news_box_image_content h4{
     color: var(--e-global-color-white);
