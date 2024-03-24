@@ -1009,6 +1009,54 @@ p{
     color: var(--e-global-color-white);
 }
 
+.team_member_section .owl-carousel .owl-nav{
+    display: block !important;
+    margin-top: 40px;
+}
+.team_member_section .owl-carousel .owl-nav button.owl-prev {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 100px;
+    margin: 0 10px 0 0;
+    border: 1px solid var(--e-global-color-primary);
+    background-color: var(--e-global-color-primary);
+    transition: all 0.3s ease-in-out;
+}
+.team_member_section .owl-carousel .owl-nav button.owl-prev:hover {
+    background-image: linear-gradient(-82deg, var(--e-global-color-accent) 0%, var(--e-global-color-soft-red) 100%);
+    border-image: 1px solid linear-gradient(-82deg, var(--e-global-color-accent) 0%, var(--e-global-color-soft-red) 100%);
+    border: 1px solid transparent;
+}
+.team_member_section .owl-carousel .owl-nav button.owl-prev span {
+    font-size: 44px;
+    line-height: 50px;
+    color: var(--e-global-color-white);
+}
+.team_member_section .owl-carousel .owl-nav button.owl-next {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 100px;
+    margin: 0 0 0 10px;
+    background-color: var(--e-global-color-primary);
+    border: 1px solid var(--e-global-color-primary);
+    transition: all 0.3s ease-in-out;
+}
+.team_member_section .owl-carousel .owl-nav button.owl-next:hover {
+    background-image: linear-gradient(-82deg, var(--e-global-color-accent) 0%, var(--e-global-color-soft-red) 100%);
+    border-image: 1px solid linear-gradient(-82deg, var(--e-global-color-accent) 0%, var(--e-global-color-soft-red) 100%);
+    border: 1px solid transparent;
+}
+.team_member_section .owl-carousel .owl-nav button.owl-next span {
+    font-size: 44px;
+    line-height: 50px;
+    color: var(--e-global-color-white);
+}
+.team_member_section .owl-carousel .owl-nav button:focus{
+    outline: none;
+}
+
 /* Home Page Contact Us Section Style */
 
 .contact_us_section{
@@ -1728,7 +1776,7 @@ textarea {
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
-.our_schedule_section table td:first-child{
+/* .our_schedule_section table td:first-child{
     color: var(--e-global-color-white);
     font-family: 'Teko', sans-serif;
     font-size: 30px;
@@ -1736,7 +1784,7 @@ textarea {
     font-weight: 500;
     background-image: linear-gradient(-82deg, var(--e-global-color-accent) 0%, var(--e-global-color-soft-red) 100%);
     border-left: none;
-}
+} */
 .our_schedule_section table td:last-child{
     border-right: none;
 }
@@ -1776,7 +1824,7 @@ textarea {
 /* Trainers Page Quote Section Style */
 
 .quote_section{
-    background-image: url('../images/quote_background.png');
+    background-image: linear-gradient(#FD8622, #fea964);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1943,7 +1991,7 @@ textarea {
 
 .coming_soon_section{
     padding: 162px 0 164px;
-    background-image: url('../images/coming_soon_background.jpg');
+    background-image: url('../images/new/fitness-class-with-crossed-arms-in-gym-2023-11-27-04-53-24-utc.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
