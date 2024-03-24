@@ -1547,7 +1547,7 @@ textarea {
 /* About Page Statistics Section Style */
 
 .stats_section{
-    background-image: url('../images/stats_background.png');
+    background-image: linear-gradient(#FD8622, #fea964);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
