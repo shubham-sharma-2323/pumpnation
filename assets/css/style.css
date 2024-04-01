@@ -89,7 +89,7 @@ p{
 /* Home Page Header Section Style */
 
 .banner-section-outer{
-    background-image: url('../images/new/strong-powerlifter-doing-deadlift-a-barbell-in-gym-2023-11-27-05-12-39-utc.jpg');
+    background-image: url('../images/home.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1477,7 +1477,7 @@ textarea {
 /* About Page Sub Banner Section Style */
 
 .about-banner-section{
-    background-image: url('../images/new/fitness-in-two-2023-11-27-05-08-23-utc.jpg');
+    background-image: url('../images/about.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1638,7 +1638,7 @@ textarea {
 /* Services Page Sub Banner Section Style */
 
 .services-banner-section{
-    background-image: url('../images/new/gym-trainer-concept-sport-gym-training-2023-11-27-05-07-46-utc.jpg');
+    background-image: url('../images/services.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1837,7 +1837,7 @@ textarea {
 /* Trainers Page Sub Banner Section Style */
 
 .trainers-banner-section{
-    background-image: url('../images/new/trainer-helping-woman-do-push-ups-2023-11-27-04-49-43-utc.jpg');
+    background-image: url('../images/trainers.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1907,7 +1907,7 @@ textarea {
 /* Pricing Page Sub Banner Section Style */
 
 .pricing-banner-section{
-    background-image: url('../images/new/slender-lady-and-strong-man-working-out-in-the-gym-2023-11-27-05-03-40-utc.jpg');
+    background-image: url('../images/contactus_page.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1921,7 +1921,7 @@ textarea {
 /* Contact Page Sub Banner Section Style */
 
 .contact-banner-section{
-    background-image: url('../images/new/slender-lady-and-strong-man-working-out-in-the-gym-2023-11-27-05-03-40-utc.jpg');
+    background-image: url('../images/contactus_page.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -2016,7 +2016,7 @@ textarea {
 
 .coming_soon_section{
     padding: 162px 0 164px;
-    background-image: url('../images/new/fitness-class-with-crossed-arms-in-gym-2023-11-27-04-53-24-utc.jpg');
+    background-image: url('../images/comimgsoon.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

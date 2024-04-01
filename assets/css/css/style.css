@@ -5399,7 +5399,7 @@ ul.wp-block-latest-posts li:last-child {
 
 .footer-layout1 {
   position: relative;
-  background-color: var(--title-color);
+  background-image: url('footer-1-bg.png');
 }
 
 /* Medium devices */
