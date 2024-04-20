@@ -2427,3 +2427,14 @@ textarea {
 .large-icon{
 	font-size:52px;
 }
+
+
+@media (max-width: 500px) {
+    .banner_video{
+        display: none;
+    }
+
+    .join_now_btn{
+        padding-right: 15px !important;
+    }
+}
